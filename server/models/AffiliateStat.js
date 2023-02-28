@@ -6,7 +6,7 @@ const AffiliateStatSchema = new mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "User",
     },
-    AffiliateSales: {
+    affiliateSales: {
       type: [mongoose.Types.ObjectId],
       ref: "Transaction",
     },
