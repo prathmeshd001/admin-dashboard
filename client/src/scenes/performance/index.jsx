@@ -11,7 +11,6 @@ export default function Performance() {
   const theme = useTheme();
   const userId = useSelector((state) => state.global.userId);
   const { data, isLoading } = useGetUserPerformanceQuery(userId);
-  console.log(data);
 
   if (!data || isLoading) return <Loading />;
 

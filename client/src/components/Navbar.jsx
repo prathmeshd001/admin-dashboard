@@ -53,8 +53,8 @@ function Navbar({ isSidebarOpen, setIsSidebarOpen, user }) {
             gap="3rem"
             p="0.1rem 1.5rem"
           >
-            <InputBase placeholder="Searching..." />
-            <IconButton onClick={() => console.log("open/close Sidebar")}>
+            <InputBase placeholder="Search..." />
+            <IconButton onClick={() => console.log("Searching")}>
               <Search />
             </IconButton>
           </FlexBetween>
